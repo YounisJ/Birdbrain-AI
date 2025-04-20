@@ -96,3 +96,4 @@ class FlappyBirdEnv(gym.Env):
     def close(self):
         if self.render_mode:
             pygame.quit()
+
