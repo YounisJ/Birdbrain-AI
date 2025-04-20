@@ -25,3 +25,4 @@ if __name__ == "__main__":
 
     model.learn(total_timesteps=1_000_000)
     model.save("flappy_bird_ppo")
+    
